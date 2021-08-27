@@ -8,5 +8,5 @@ module.exports = function (hexStr) {
     if (Number.isNaN(number)) {
         throw new Error("Unexpected value. Please input valid HEX")
     }
-    return number;
+    return number.toString(10);
 }
