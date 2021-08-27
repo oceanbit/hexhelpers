@@ -1,6 +1,20 @@
 {
   "name": "decimaltohex",
   "version": "0.0.1-alpha.0",
+  "description": "Convert a decimal number to HEX easily",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/crutchcorn/hexhelpers.git",
+    "directory": "packages/decimaltohex"
+  },
+  "keywords": [
+    "hexadecimal",
+    "hex",
+    "decimal",
+    "convert",
+    "numbers"
+  ],
   "bin": {
     "decimaltohex": "src/index.js"
   },
