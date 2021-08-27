@@ -1,6 +1,6 @@
 // import {immutableProxifyDeep} from "../immutable-proxify-deep";
 
-const hexToDecimal = require('../hextodecimal');
+import hexToDecimal from '../hextodecimal';
 
 describe('Hex to decimal', () => {
     test('Should do simple HEX conversion', () => {

@@ -1,6 +1,6 @@
 const isValidHex = /^-?[0-9A-Fa-f ]+$/
 
-module.exports = function (hexStr) {
+export default function (hexStr) {
     if (!isValidHex.exec(hexStr)) {
         throw new Error("Unexpected value. Please input valid HEX")
     }
