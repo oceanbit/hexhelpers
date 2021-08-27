@@ -1,0 +1,15 @@
+{
+  "name": "root",
+  "private": true,
+  "scripts": {
+    "test": "yarn workspace decimaltohex run test",
+    "bootstrap": "lerna bootstrap",
+    "npmpublish": "lerna publish"
+  },
+  "devDependencies": {
+    "lerna": "^3.22.1"
+  },
+  "workspaces": [
+    "packages/*"
+  ]
+}
