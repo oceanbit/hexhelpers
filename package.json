@@ -4,10 +4,14 @@
   "scripts": {
     "test": "yarn workspaces run test",
     "bootstrap": "lerna bootstrap",
-    "npmpublish": "lerna publish"
+    "npmpublish": "cross-env lerna publish --conventional-commits --create-release github"
   },
   "devDependencies": {
-    "lerna": "^3.22.1"
+    "lerna": "^3.22.1",
+    "cross-env": "^7.0.3",
+    "husky": "^7.0.2",
+    "@commitlint/cli": "^13.1.0",
+    "@commitlint/config-conventional": "^13.1.0"
   },
   "workspaces": [
     "packages/*"
