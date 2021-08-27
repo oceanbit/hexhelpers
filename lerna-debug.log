@@ -1,9 +1,0 @@
-33 error Error: Command failed: git commit -m v0.0.1-alpha.0
-33 error On branch main
-33 error Your branch is up to date with 'origin/main'.
-33 error
-33 error nothing to commit, working tree clean
-33 error
-33 error     at makeError (C:\Users\crutchcorn\git\Hex\hexhelpers\node_modules\execa\index.js:174:9)
-33 error     at C:\Users\crutchcorn\git\Hex\hexhelpers\node_modules\execa\index.js:278:16
-33 error     at processTicksAndRejections (internal/process/task_queues.js:95:5)
