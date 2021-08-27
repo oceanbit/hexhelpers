@@ -1,6 +1,6 @@
 // import {immutableProxifyDeep} from "../immutable-proxify-deep";
 
-import hexToDecimal from '../hextodecimal';
+import hexToDecimal from '../hextodecimal.js';
 
 describe('Hex to decimal', () => {
     test('Should do simple HEX conversion', () => {
