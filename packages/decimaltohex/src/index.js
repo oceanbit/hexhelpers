@@ -1,9 +1,16 @@
 #!/usr/bin/env node
 
-// This came from: https://github.com/wmhilton/inflate-cli/blob/main/inflate.js
-// I may regret supporting a command line argument.
-var input = (process.argv.length > 2)
-    ? require('fs').createReadStream(process.argv[2])
-    : process.stdin;
+import decimalToHex from './decimaltohex.js';
+import getStdin from 'get-stdin';
 
-input.pipe(require('zlib').createInflate()).pipe(process.stdout);
+const inputPromise = (process.argv.length > 2)
+    ? Promise.resolve(process.argv[2])
+    : getStdin();
+
+inputPromise
+    .then(input => {
+        process.stdout.write(decimalToHex(input));
+    })
+    .catch(e => {
+        process.stderr.write(e.toString());
+    })

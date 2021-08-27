@@ -1,6 +1,6 @@
 const isValidDecimal = /^-?[0-9 ]+$/
 
-module.exports = function (decimalStr) {
+export default function (decimalStr) {
     if (!isValidDecimal.exec(decimalStr)) {
         throw new Error("Unexpected value. Please input valid decimal")
     }
