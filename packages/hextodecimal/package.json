@@ -1,6 +1,6 @@
 {
   "name": "hextodecimal",
-  "version": "0.0.1-alpha.2",
+  "version": "1.0.0",
   "description": "Convert a HEX number to decimal easily",
   "license": "MIT",
   "repository": {

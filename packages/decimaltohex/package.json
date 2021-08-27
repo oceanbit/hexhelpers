@@ -1,6 +1,6 @@
 {
   "name": "decimaltohex",
-  "version": "0.0.1-alpha.2",
+  "version": "1.0.0",
   "description": "Convert a decimal number to HEX easily",
   "license": "MIT",
   "repository": {
