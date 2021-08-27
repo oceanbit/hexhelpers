@@ -2,7 +2,7 @@
   "name": "root",
   "private": true,
   "scripts": {
-    "test": "yarn workspace decimaltohex run test",
+    "test": "yarn workspace hextodecimal run test",
     "bootstrap": "lerna bootstrap",
     "npmpublish": "lerna publish"
   },
