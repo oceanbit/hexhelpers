@@ -1,6 +1,6 @@
 {
   "name": "@oceanbit/hextobinary",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Convert a HEX number to binary easily",
   "license": "MIT",
   "repository": {

@@ -1,6 +1,6 @@
 {
   "name": "@oceanbit/hextodecimal",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Convert a HEX number to decimal easily",
   "license": "MIT",
   "repository": {
