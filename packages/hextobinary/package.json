@@ -32,5 +32,8 @@
   "scripts": {
     "start": "node ./src/index.js",
     "test": "cross-env NODE_OPTIONS=--experimental-vm-modules jest"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }
