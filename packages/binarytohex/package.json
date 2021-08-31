@@ -1,11 +1,11 @@
 {
-  "name": "binarytohex",
+  "name": "@oceanbit/binarytohex",
   "version": "1.0.0",
   "description": "Convert a binary number to HEX easily",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/crutchcorn/hexhelpers.git",
+    "url": "https://github.com/oceanbit/hexhelpers.git",
     "directory": "packages/decimaltohex"
   },
   "keywords": [

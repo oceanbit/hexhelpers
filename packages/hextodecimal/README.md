@@ -5,7 +5,7 @@ A CLI utility for converting hex numbers to decimal
 ## Install
 
 ```sh
-npm i -g hextodecimal
+npm i -g @oceanbit/hextodecimal
 ```
 
 ## Use

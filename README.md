@@ -5,10 +5,10 @@ A set of CLI utilities for converting hex numbers to other bases and vise-versa
 ## Install
 
 ```sh
-npm i -g decimaltohex
-npm i -g binarytohex
-npm i -g hextodecimal
-npm i -g hextobinary
+npm i -g @oceanbit/decimaltohex
+npm i -g @oceanbit/binarytohex
+npm i -g @oceanbit/hextodecimal
+npm i -g @oceanbit/hextobinary
 ```
 
 ## Use

@@ -5,7 +5,7 @@ A CLI utility for converting hex numbers to binary
 ## Install
 
 ```sh
-npm i -g hextobinary
+npm i -g @oceanbit/hextobinary
 ```
 
 ## Use
