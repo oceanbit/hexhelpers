@@ -1,0 +1,38 @@
+{
+  "name": "@oceanbit/decimaltobinary",
+  "version": "1.0.0",
+  "description": "Convert a decimal value to binary",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/oceanbit/hexhelpers.git",
+    "directory": "packages/decimaltobinary"
+  },
+  "keywords": [
+    "decimal",
+    "binary",
+    "convert",
+    "numbers"
+  ],
+  "bin": {
+    "decimaltobinary": "src/index.js"
+  },
+  "type": "module",
+  "engines": {
+    "node": "^12.20.0 || ^14.13.1 || >=16.0.0"
+  },
+  "devDependencies": {
+    "cross-env": "^7.0.3",
+    "jest": "^27.0.6"
+  },
+  "scripts": {
+    "start": "node ./src/index.js",
+    "test": "cross-env NODE_OPTIONS=--experimental-vm-modules jest"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "dependencies": {
+    "get-stdin": "^9.0.0"
+  }
+}
