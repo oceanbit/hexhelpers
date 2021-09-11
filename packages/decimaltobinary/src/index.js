@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 
-import hexToDecimal from './hextodecimal.js';
+import decimalToBinary from './decimaltobinary.js';
 import getStdin from 'get-stdin';
 
 const inputPromise = (process.argv.length > 2)
@@ -9,8 +9,8 @@ const inputPromise = (process.argv.length > 2)
 
 inputPromise
     .then(input => {
-        process.stdout.write(hexToDecimal(input));
+        process.stdout.write(decimalToBinary(input) + "\n");
     })
-    .catch(e => {
-        process.stderr.write(e.toString());
-    })
+    .catch(err => {
+        process.stderr.write(err.message);
+    });
